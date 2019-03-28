@@ -1,0 +1,20 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=latin-ext');
+
+$font: 'Roboto';
+$font-weight: 300;
+$font-weight-semibold: 500;
+$font-weight-bold: 700;
+
+//Colors
+$gradient: linear-gradient(44deg, #515B8B 0%, #816E8E 100%);
+$white: #fff;
+$dark: #29333D;
+$bg: #4F525B;
+
+
+// Media Queries
+$xs: 380px;
+$sm: 700px;
+$md: 1000px;
+// $lg: 1200px;

@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: $bg;
+    color: $dark;
+    font-family: $font;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: $font-weight-bold;
+
+    @media (min-width: $md) {
+        font-size: 55px;
+    }
+}
+
+h2 {
+    color: $white;
+    font-size: 22px;
+    font-weight: $font-weight;
+    padding: 20px 0;
+    width: 100%;
+
+    @media (min-width: $md) {
+        font-size: 34px;
+    }
+}
